@@ -6,7 +6,7 @@ import(
 
 func Test_Should_return_true(t *testing.T){
 	s2 := "abc"
-	s1 := "cba"
+	s1 := "cab"
 	result := isAnagram(s1, s2)
 	if (result) {
 		t.Log("right")
